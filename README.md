@@ -1,8 +1,15 @@
-# React + Vite
+# Pokédex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+**Pokédex** es una aplicación que muestra información sobre los Pokémon. Utiliza **Axios** para manejar las solicitudes HTTP a la **Poke API** y obtener datos actualizados sobre los Pokémon. 
 
-Currently, two official plugins are available:
+## Características
+- **Búsqueda de Pokémon**: Permite buscar Pokémon por nombre de Pokédex.
+- **Información Detallada**: Muestra estadísticas, habilidades y evoluciones de cada Pokémon.
+- **Interfaz Responsive**: Diseñada para adaptarse a dispositivos móviles y tabletas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
+- **React - Vite**: Framework para el desarrollo rápido y eficiente de la interfaz de usuario.
+- **Axios**: Para realizar solicitudes HTTP y manejar datos de la Poke API.
+- **Sass**: Preprocesador CSS para dar estilos a la aplicación de manera modular y eficiente.
+- **Poke API**: Fuente de datos para obtener información detallada sobre los Pokémon.
