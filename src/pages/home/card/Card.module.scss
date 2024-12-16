@@ -1,0 +1,149 @@
+.card {
+    width: 100%;
+    height: 30.625rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        transition-duration: 200ms;
+
+        >img {
+            margin-top: -1.25rem;
+            transform: scale(1.05);
+            transition-duration: 300ms;
+            filter: drop-shadow(4px 5px 0px black);
+            transform: translateX(-50%);
+        }
+    }
+
+    .img_pokemon {
+        width: 10rem;
+        margin: 0 auto;
+        z-index: 20;
+        position: absolute;
+        top: -5.7rem;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .3s ease-in-out;
+    }
+
+    .sub_card {
+        position: absolute;
+        border-radius: 10px;
+        min-height: 23.125rem;
+        padding: 0.938rem;
+        width: 100%;
+        margin-top: 0.625rem;
+        border: 1px solid #42424242;
+        box-shadow: 1px 1px 0px hsl(33, 42%, 40%),
+            2px 2px 0px hsl(33, 42%, 39%),
+            3px 3px 0px hsl(33, 42%, 38%),
+            4px 4px 0px hsl(33, 42%, 37%),
+            5px 5px 0px hsl(33, 42%, 36%);
+    }
+
+    .id_pokemon {
+        background-color: white;
+        border: 1px solid #424242dd;
+        width: auto;
+        padding: 0.063rem 0.25rem;
+        font-size: 0.85rem;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .name_pokemon {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        display: block;
+        text-transform: capitalize;
+        font-weight: 900;
+        -webkit-text-stroke: 0.4px #ffffff9e;
+        -webkit-text-fill-color: #000;
+    }
+
+    .height_pokemon,
+    .weight_pokemon,
+    .habitat_pokemon {
+        margin-top: 0.125rem;
+        font-size: 0.75rem;
+        text-transform: capitalize;
+        display: block;
+        color: #484848;
+    }
+
+    .height_pokemon,
+    .weight_pokemon {
+        >span {
+            text-transform: lowercase;
+        }
+    }
+
+    .div_stats {
+        margin: 0.25rem 0;
+        width: 100%;
+        padding: 0.313rem;
+
+        .container_stats {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .name_stat {
+                width: 5.625rem;
+                text-transform: capitalize;
+                color: #484848;
+            }
+
+            .base_stat {
+                width: 1.375rem;
+                text-align: end;
+                color: #484848;
+            }
+        }
+    }
+
+    .container_types {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.375rem 0;
+
+        .type_name {
+            border: 1px solid #424242;
+            border-radius: 4px;
+            text-align: center;
+            text-transform: capitalize;
+            height: 1.25rem;
+            width: 3.125rem;
+            line-height: 1.063rem;
+            color: white;
+        }
+    }
+
+    .div_evolutions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container_evolutions {
+            .img_evolution {
+                width: 5rem;
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.4);
+                    transition-duration: 200ms;
+                    z-index: 56;
+                }
+            }
+
+            >h6 {
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+    }
+}

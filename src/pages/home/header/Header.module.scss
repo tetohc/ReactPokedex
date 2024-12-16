@@ -1,0 +1,50 @@
+.header {
+    background: rgb(224, 224, 224);
+    background: linear-gradient(90deg, rgba(224, 224, 224, 1) 4%, rgba(0, 0, 0, 1) 53%);
+
+    .div_header {
+        height: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 87.5rem;
+        width: calc(100% - 30px);
+        margin: 0 auto;
+
+        .div_logo {
+            >img {
+                width: 7.5rem;
+                transition: transform 0.3s
+            }
+
+            >img:hover {
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+        }
+
+        .div_search {
+            width: 30%;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            border-radius: 8px;
+            overflow: hidden;
+
+            @media screen and (max-width: 500px) {
+                width: 50%;
+            }
+
+            >input {
+                width: 100%;
+                height: 30px;
+                padding: 4px 10px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}

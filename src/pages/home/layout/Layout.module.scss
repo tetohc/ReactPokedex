@@ -1,0 +1,60 @@
+.card_container {
+    width: 87.5rem;
+    max-width: calc(100% - 30px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.625rem, 1fr));
+    gap: 1.563rem;
+    padding-bottom: 1.875rem;
+}
+
+.section_pagination {
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto 9rem auto;
+
+    .div_pagination {
+        width: auto;
+        background-color: #11121D;
+        display: flex;
+        border-radius: 8px;
+        color: white;
+        overflow: hidden;
+
+        .left_item,
+        .right_item,
+        .item {
+            width: 1.875rem;
+            height: 1.875rem;
+            display: grid;
+            place-items: center;
+        }
+
+        .left_item:hover,
+        .right_item:hover {
+            cursor: pointer;
+            background-color: #4B4C57;
+            transition: transform 0.3s;
+            transform: scale(1.02);
+        }
+
+        .left_item:hover {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        .right_item:hover {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .item {
+            width: 2.5rem;
+            pointer-events: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+}
