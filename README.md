@@ -12,4 +12,4 @@
 - **React - Vite**: Framework para el desarrollo rápido y eficiente de la interfaz de usuario.
 - **Axios**: Para realizar solicitudes HTTP y manejar datos de la Poke API.
 - **Sass**: Preprocesador CSS para dar estilos a la aplicación de manera modular y eficiente.
-- **Poke API**: Fuente de datos para obtener información detallada sobre los Pokémon.
+- **[PokeAPI](https://pokeapi.co/)**: Fuente de datos para obtener información detallada sobre los Pokémon .
