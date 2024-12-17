@@ -4,7 +4,7 @@
 **Pokédex** es una aplicación que muestra información sobre los Pokémon. Utiliza **Axios** para manejar las solicitudes HTTP a la **Poke API** y obtener datos actualizados sobre los Pokémon. 
 
 ## Características
-- **Búsqueda de Pokémon**: Permite buscar Pokémon por su nombrex.
+- **Búsqueda de Pokémon**: Permite buscar Pokémon por su nombre.
 - **Información Detallada**: Muestra estadísticas, habilidades y evoluciones de cada Pokémon.
 - **Interfaz Responsive**: Diseñada para adaptarse a dispositivos móviles y tabletas.
 
